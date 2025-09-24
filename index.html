@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabores del Mundo - Blog Culinario</title>
+    <style>
+        /* Estilos básicos para mejorar la presentación */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            background-color: #8B4513;
+            color: white;
+            padding: 2rem;
+            text-align: center;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .descripcion {
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        main {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 2rem;
+        }
+        
+        section {
+            background-color: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin-bottom: 2rem;
+        }
+        
+        h2 {
+            color: #8B4513;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid #f0f0f0;
+            padding-bottom: 0.5rem;
+        }
+        
+        article {
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        
+        h3 {
+            color: #555;
+            margin-bottom: 0.5rem;
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin: 1rem 0;
+        }
+        
+        ul {
+            list-style-type: none;
+            padding-left: 1rem;
+        }
+        
+        li {
+            margin-bottom: 0.8rem;
+        }
+        
+        a {
+            color: #8B4513;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        
+        a:hover {
+            color: #5D2F0A;
+            text-decoration: underline;
+        }
+        
+        aside {
+            background-color: #f5f5f5;
+            padding: 1.5rem;
+            border-radius: 8px;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 2rem;
+            padding: 1rem;
+            color: #666;
+            border-top: 1px solid #ddd;
+        }
+        
+        @media (max-width: 768px) {
+            main {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sabores del Mundo</h1>
+        <p class="descripcion">Tu blog de cocina internacional con recetas auténticas y consejos prácticos</p>
+    </header>
+    
+    <main>
+        <section>
+            <h2>Recetas Destacadas</h2>
+            
+            <article>
+                <h3>Lasagna Italiana</h3>
+                <img src="imagenes/lasagna.jpg" alt="Lasagna italiana recién horneada con capas de pasta, carne y queso derretido">
+                <p>Una receta tradicional italiana con capas de pasta, carne, salsa bechamel y queso. Perfecta para una comida familiar.</p>
+                <p><a href="receta-lasagna.html" title="Ver receta completa de Lasagna Italiana">Ver receta completa</a></p>
+            </article>
+            
+            <article>
+                <h3>Paella Valenciana</h3>
+                <img src="imagenes/paella.jpg" alt="Paella valenciana con arroz, mariscos, pollo y verduras en una paellera">
+                <p>El plato español más famoso, con arroz, mariscos, pollo y una combinación única de especias.</p>
+                <p><a href="receta-paella.html" title="Ver receta completa de Paella Valenciana">Ver receta completa</a></p>
+            </article>
+            
+            <article>
+                <h3>Tacos al Pastor</h3>
+                <img src="imagenes/tacos.jpg" alt="Tacos al pastor con carne adobada, piña, cebolla y cilantro">
+                <p>Tacos mexicanos con carne de cerdo marinada en especias, piña y servidos con cebolla y cilantro.</p>
+                <p><a href="receta-tacos.html" title="Ver receta completa de Tacos al Pastor">Ver receta completa</a></p>
+            </article>
+        </section>
+        
+        <aside>
+            <h2>Sobre Mí</h2>
+            <p>Hola, yo soy emanuel, me gusta la comida ya unque se algo de cocina no soy tan bueno pero me gusta muchointenarlo y aunque a veces fracaso en mis intentos es bueno aprender de lo que hice mal para que a la proxima ya no tenga ese problema y se lo mejor posible</p>
+            <p>En este blog encontrarás recetas auténticas, consejos de cocina y mucho más. ¡Bienvenidos a mi mundo culinario!</p>
+            
+            <h3>Recetas Populares</h3>
+            <ul>
+                <li><a href="receta-lasagna.html" title="Receta de Lasagna Italiana">Lasagna Italiana</a></li>
+                <li><a href="receta-paella.html" title="Receta de Paella Valenciana">Paella Valenciana</a></li>
+                <li><a href="receta-tacos.html" title="Receta de Tacos al Pastor">Tacos al Pastor</a></li>
+                <li><a href="receta-sushi.html" title="Receta de Sushi Casero">Sushi Casero</a></li>
+            </ul>
+        </aside>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 Sabores del Mundo - Blog Culinario. Todos los derechos reservados.</p>
+        <p><a href="mailto:contacto@saboresdelmundo.com" title="Enviar correo a Sabores del Mundo">Contacto</a> | <a href="politica-privacidad.html" title="Política de Privacidad del Blog">Política de Privacidad</a></p>
+    </footer>
+</body>
+</html>
